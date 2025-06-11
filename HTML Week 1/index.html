@@ -10,10 +10,11 @@
     }
 
    h1 {
-    color:#885df1;
-    font-family: Helvetica, sans-serif;
+    color:#493d67;
+    font-family:'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;;
     font-size: 48px;
-    text-decoration: underline dotted;
+    text-decoration: underline double;
+    text-decoration-color: #b7aece;
     font-weight: 100;
     text-align: center;
   }
@@ -31,7 +32,7 @@
     h2{
      
       color: #272044;
-      font-family: Helvetica, sans-serif;
+      font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
       font-size: 33px;
       text-align: center;
     }
@@ -43,17 +44,60 @@
 
 img {
   display: block;
+  
 }
 .heading {
   display: inline;
 }
+
 p{
   color: #272044;
-  font-family: Helvetica, sans-serif;
+  font-family:'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;;
   font-size: 20px;
   text-align: center;
 }
+    button {
+      background-color: #b7aece;
+      color: #a79fc6;
+      border: solid 2px #574e7c;
+      border-radius: 30px;
+      box-shadow: #272044 0px 10px 20px -5px;
+      display: block;
+      margin: 0 auto;
+      cursor: pointer;
+      padding: 2px 15px;
+    }
+    button:hover {
+      background-color: #625089a5;
+      transition: all 0.3s ease-in-out;
+    }
+    ul {
+      list-style-type: none;
+      margin: 50px;
+      padding: 0;
+      text-align: center;
+      
+    }
+    li {
+     display: inline;
+      margin: 0px 20px;
+      font-family:'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;;
+      font-size: large;
+    }
+   
+   .link {
+      color: #786cae;
+      text-decoration: none;
+    }
 
+    .contact-details {
+      font-family:'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;;
+      font-size: 20px;
+      color: #3d345e;
+      text-align: center;
+      margin-top: 20px;
+    }
+    
 
     </style>
 
@@ -62,17 +106,23 @@ p{
   <h1>SheCodes</h1>
   <h2>Coding Workshop</h2>
 
+  <button>
+   <p> Apply now </p>
+  </button>
+
 <ul>
   <li class="Coders">
     <a href="https://www.shecodes.io/students"
     class="Coders">
     Coders</a>
   </li>
+  
   <li class="Courses">
 <a href="https://www.shecodes.io/workshops" target="_blank"
 class="Courses">
 Courses</a>
     </li>
+   
   <li class="Stories">
 <a href="https://www.shecodes.io/stories" target="_blank" title="SheCodes Website"
 class="Stories">
@@ -85,5 +135,18 @@ Stories</a>
 <strong>
   <p>More Info</p>
   <img src="https://i.pinimg.com/736x/6b/6c/ce/6b6cce22e12fbd4a6e79d168558b2f0a.jpg" width="444" height="333"/>
+
+</div>
+
+>
+<div class="contact-details"> 
+  <span class="Contact info">Email:</span> 
+  <span  class="link">@shecodes.co.za</span> 
+<span class="contact info"> Instagram:</span>
+  <span class="link">@shecodes.io</span>
+</div>
+
+
+
 </body>
 </html>
