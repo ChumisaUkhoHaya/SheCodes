@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SheCodes WeatherApp</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        color: #333;
+        text-align: center;
+      }
+      h1 {
+        font-size: 35px;
+        color: #74aaa1;
+      }
+      h2 {
+        font-size: 33px;
+        color: #3b6561;
+      }
+      h3 {
+        font-size: 22px;
+        color: #093d3b;
+        padding: 15px;
+        border: 1px solid #ccc;
+        border-radius: 15px;
+        background-color: #f9f9f9;
+        margin: 10px 0;
+      }
+      p {
+        font-size: 19px;
+        color: #555;
+      }
+      ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      li {
+        margin: 10px 0;
+        list-style: none;
+        text-align: center;
+        padding: 10px 0;
+        border-radius: 10px;
+        transition: all 200ms ease-in-out;
+        max-width: 400px;
+        margin: 0 auto;
+      }
+
+      li:hover {
+        background: #63848f36;
+      }
+      button {
+        display: block;
+        margin: 20px auto;
+        border: 1px solid #74aaa1;
+        background: #74aaa1;
+        color: #fff;
+        font-size: 16px;
+        line-height: 22px;
+        padding: 16px 24px;
+        border-radius: 30px;
+        transition: all 200ms ease;
+        box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: #3b6561;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>
+      🌤
+      <br />
+      Currently 16° in Johannesburg
+    </h1>
+    <h2>19° / <strong>8°</strong></h2>
+    <ul>
+      <li>
+        <h3>🌧 Tomorrow</h3>
+        <p>10° / <strong>22°</strong></p>
+      </li>
+      <li>
+        <h3>⛅️ Saturday</h3>
+        <p>15° / <strong>17°</strong></p>
+      </li>
+      <li>
+        <h3>☀️ Sunday</h3>
+        <p>25° / <strong>28°</strong></p>
+      </li>
+    </ul>
+
+    <button>Change City</button>
+    <p>Coded by Chumisa Ukho Haya.</p>
+    <script>
+      function askForCity() {
+        let city = prompt("Please enter your city:");
+        let temperature = prompt(
+          "Please enter the current temperature in " + city
+        );
+        if (temperature < 10) {
+          document.querySelector("h1").innerHTML =
+            "🥶 <br /> Currently " + temperature + "° in " + city;
+        } else {
+          document.querySelector("h1").innerHTML =
+            "🥵<br /> Currently " + temperature + "° in " + city;
+        }
+      }
+
+      document.querySelector("button").addEventListener("click", askForCity);
+    </script>
+  </body>
+</html>

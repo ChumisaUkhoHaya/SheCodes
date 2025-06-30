@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>ʚଓloom Flower Shop</title>
+    <style>
+
+      @import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap");
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background-color: #73a9ad;
+        min-height: 150vh;
+        font-family: "Cinzel", serif;
+       
+      }
+      section {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        background: url("b134752c6a3d2535121edb100bc00af3_webp 816×1,456 pixels.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        clip-path: circle(180vh at 50% -80vh);
+      }
+      section .content {
+        text-align: center;
+        max-width: 1000px;
+        color: rgb(255, 255, 255);
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 10px;
+        border-radius: 200px;
+        box-shadow: 0 0 80px 40px rgba(0, 0, 0, 0.4);
+        backdrop-filter: blur(2px);
+       
+      }
+      section .content h1 {
+        font-size: 65px;
+        font-weight: 666;
+        margin: 0;
+        padding: 10px 0;
+      }
+      .Body {
+        background: linear-gradient(
+          135deg,
+          #73a9ad80,
+          #b2c89092);
+        text-align: center;
+        padding: 60px 40px;
+        border-radius: 180px;
+        box-shadow: 0 0 80px 40px rgba(0, 0, 0, 0.4);
+        backdrop-filter: blur(2px);
+        margin: 20px auto;
+        max-width: 800px;
+        
+      }
+      button {
+        display: block;
+        width: 200px;
+        font-family: "Cinzel", serif;
+        margin: 20px auto;
+        border: 1px solid  #000000;
+        background:  #000000;
+        color: #ffffff;
+        font-size: 16px;
+        line-height: 22px;
+        padding: 16px 24px;
+        border-radius: 30px;
+        transition: all 200ms ease;
+        box-shadow: rgb(56, 80, 85) 0px 8px 8px 0;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <div class="content">
+        <h1>ʚଓloom Flower Shop</h1>
+      </div>
+    </section>
+
+    <div class="Body">
+        <h1>°❀.ೃ࿔*°❀.ೃ࿔*</h1>
+        <h2>Bringing Nature's Beauty to Your Doorstep</h1>
+          <br>
+        <p>At <strong>ʚଓloom Flower Shop</strong>, we believe in the power of flowers to brighten your day and bring joy to your life. Our shop is dedicated to providing you with the freshest and most beautiful blooms, handpicked daily to ensure quality and vibrancy.</p>
+        <br>
+        <p>Whether you're celebrating a special occasion, expressing your love, or simply treating yourself, our wide selection of flowers and arrangements is designed to suit every need and taste.</p>
+        <br>
+        <p>Explore our collection of seasonal flowers, exotic blooms, and classic favorites. From elegant bouquets to stunning floral arrangements, we have something for everyone.</p>
+        <br>
+        <h3>Fresh Flowers Delivered Daily!</h1>
+      
+          <button>Shop Now</button>
+        <h1>°❀.ೃ࿔*°❀.ೃ࿔*</h1>
+      </div>
+
+    <footer>
+      <p style="text-align: center; color: #ffffff;">
+        &copy; 2025 ʚଓloom Flower Shop. All rights reserved.</p>
+      <p style="text-align: center; color: #ffffff;">
+             <strong> Coded By Chumisa Ukho Haya.</strong></p>
+
+    <script>
+      function customerInfo() {
+        {
+          let Fullname = prompt("Please enter your Fullname:");
+          if (Fullname) {
+        alert("Thank you" + " " + Fullname + " " + "for visiting ʚଓloom Flower Shop! We hope you find the perfect flowers to brighten your day.");
+          } else{
+            if (Fullname === null || Fullname === "") {
+            alert("Thank you for visiting ʚଓloom Flower Shop! We hope you find the perfect flowers to brighten your day.");
+          }
+      }
+    }
+    }
+      
+      document.querySelector("button").addEventListener("click", customerInfo);
+    </script>
+  </body>
+</html>
