@@ -1,4 +1,4 @@
-#SheCodes Workshop Series.
+SheCodes Workshop Series.
 
 SheCodes is a beginner-friendly coding program designed to empower women by teaching practical web development skills. Through hands-on lessons in HTML, CSS, JavaScript, and React, participants build real projects and gain the confidence to launch careers in tech. This workshop focuses on creating accessible, user-friendly web experiences while fostering a supportive learning community.
 
